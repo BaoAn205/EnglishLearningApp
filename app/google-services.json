@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1009277844905",
+    "project_id": "apphoctiengtrung-92cd0",
+    "storage_bucket": "apphoctiengtrung-92cd0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009277844905:android:9f8fa6d023de01e71398b8",
+        "android_client_info": {
+          "package_name": "com.example.apphoctiengtrung"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlMrTOA1uYGkkgoz1u676cJot3nlwV-Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

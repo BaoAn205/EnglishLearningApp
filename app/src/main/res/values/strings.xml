@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppHocTiengTrung</string>
+
+    <!-- BẮT ĐẦU SỬA: Thêm 2 dòng này để sửa lỗi đỏ -->
+    <string name="navigation_drawer_open">Mở thanh điều hướng</string>
+    <string name="navigation_drawer_close">Đóng thanh điều hướng</string>
+    <!-- KẾT THÚC SỬA -->
+
+</resources>
