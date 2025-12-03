@@ -25,22 +25,13 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-        <!-- Nơi chứa nội dung (Trang chủ, Từ Vựng...) -->
-        <FrameLayout
-            android:id="@+id/fragment_container"
+        <!-- Nơi chứa nội dung -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_lessons"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <!-- Tạm thời hiển thị một chữ -->
-            <TextView
-                android:id="@+id/main_text_content"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nội dung Trang Chủ"
-                android:textSize="24sp"
-                android:layout_gravity="center"/>
-
-        </FrameLayout>
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            tools:listitem="@layout/item_lesson" />
 
     </LinearLayout>
 

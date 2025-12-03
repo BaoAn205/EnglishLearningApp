@@ -2,26 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="176dp"
-    android:background="#004D40"
+    android:background="?attr/colorPrimaryDark"
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <!-- Bạn có thể thêm ImageView (logo) ở đây -->
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@android:drawable/sym_def_app_icon"
+        android:layout_marginBottom="8dp"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="App Học Tiếng Trung"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="18sp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_view_user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Học mỗi ngày!" />
+        android:text="App Học Tiếng Trung"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/text_view_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chưa đăng nhập"
+        android:textColor="@android:color/white"/>
+
 </LinearLayout>

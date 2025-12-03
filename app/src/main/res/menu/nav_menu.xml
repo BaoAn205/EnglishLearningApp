@@ -3,27 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:id="@+id/group_content" android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
             android:icon="@android:drawable/ic_menu_compass"
-            android:title="Trang Chủ" />
+            android:title="@string/nav_home_title" />
         <item
             android:id="@+id/nav_tu_vung"
             android:icon="@android:drawable/ic_menu_search"
-            android:title="Học Từ Vựng" />
+            android:title="@string/nav_vocabulary_title" />
         <item
             android:id="@+id/nav_ngu_phap"
             android:icon="@android:drawable/ic_menu_agenda"
-            android:title="Ngữ Pháp" />
+            android:title="@string/nav_grammar_title" />
+        <item
+            android:id="@+id/nav_dictionary"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/nav_dictionary_title" />
     </group>
 
-    <item android:title="Tài khoản">
-        <menu>
-            <item
-                android:id="@+id/nav_settings"
-                android:icon="@android:drawable/ic_menu_manage"
-                android:title="Cài đặt" />
-        </menu>
-    </item>
+    <group android:id="@+id/group_settings" android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/nav_settings_title" />
+        <item
+            android:id="@+id/nav_tai_khoan"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/nav_account_login_title" />
+        <item
+            android:id="@+id/nav_dang_xuat"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="@string/nav_logout_title"
+            android:visible="false" />
+    </group>
 </menu>

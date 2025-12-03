@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificationsSettingsActivity">
+
+    <TextView
+        android:id="@+id/notification_reminders"
+        style="@style/SettingsItem"
+        android:text="@string/notifications_reminders" />
+
+    <TextView
+        android:id="@+id/notification_friends"
+        style="@style/SettingsItem"
+        android:text="@string/notifications_friends" />
+
+    <TextView
+        android:id="@+id/notification_leaderboard"
+        style="@style/SettingsItem"
+        android:text="@string/notifications_leaderboard" />
+
+    <TextView
+        android:id="@+id/notification_announcements"
+        style="@style/SettingsItem"
+        android:text="@string/notifications_announcements" />
+
+    <TextView
+        android:id="@+id/notification_friend_reminders"
+        style="@style/SettingsItem"
+        android:text="@string/notifications_friend_reminders" />
+
+</LinearLayout>

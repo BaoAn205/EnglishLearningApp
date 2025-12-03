@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <!-- Category: Tài khoản -->
+        <TextView
+            style="@style/SettingsCategory"
+            android:text="@string/settings_category_account" />
+
+        <TextView
+            android:id="@+id/setting_private_settings"
+            style="@style/SettingsItem"
+            android:text="@string/settings_private_settings" />
+
+        <TextView
+            android:id="@+id/setting_profile"
+            style="@style/SettingsItem"
+            android:text="@string/settings_profile" />
+
+        <TextView
+            android:id="@+id/setting_notifications"
+            style="@style/SettingsItem"
+            android:text="@string/settings_notifications" />
+
+        <TextView
+            android:id="@+id/setting_courses"
+            style="@style/SettingsItem"
+            android:text="@string/settings_courses" />
+
+        <TextView
+            android:id="@+id/setting_social_accounts"
+            style="@style/SettingsItem"
+            android:text="@string/settings_social_accounts" />
+
+        <TextView
+            android:id="@+id/setting_privacy_settings"
+            style="@style/SettingsItem"
+            android:text="@string/settings_privacy_settings" />
+
+        <!-- Divider -->
+        <View style="@style/SettingsDivider" />
+
+        <!-- Category: Gói đăng ký -->
+        <TextView
+            style="@style/SettingsCategory"
+            android:text="@string/settings_category_subscription" />
+
+        <TextView
+            android:id="@+id/setting_choose_plan"
+            style="@style/SettingsItem"
+            android:text="@string/settings_choose_plan" />
+
+        <TextView
+            android:id="@+id/setting_super_gift"
+            style="@style/SettingsItem"
+            android:text="@string/settings_super_gift" />
+
+        <Button
+            android:id="@+id/button_restore_subscription"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/settings_restore_subscription"
+            android:textColor="?attr/colorPrimary" />
+
+        <!-- Divider -->
+        <View style="@style/SettingsDivider" />
+
+        <!-- Category: Hỗ trợ -->
+        <TextView
+            style="@style/SettingsCategory"
+            android:text="@string/settings_category_support" />
+
+        <TextView
+            android:id="@+id/setting_help_center"
+            style="@style/SettingsItem"
+            android:text="@string/settings_help_center" />
+
+        <TextView
+            android:id="@+id/setting_feedback"
+            style="@style/SettingsItem"
+            android:text="@string/settings_feedback" />
+
+        <Button
+            android:id="@+id/button_logout"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/settings_logout"
+            android:textColor="@color/purple_500" />
+
+    </LinearLayout>
+
+</ScrollView>

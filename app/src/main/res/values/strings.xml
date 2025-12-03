@@ -6,4 +6,81 @@
     <string name="navigation_drawer_close">Đóng thanh điều hướng</string>
     <!-- KẾT THÚC SỬA -->
 
+    <string name="register">Đăng Ký</string>
+    <string name="email">Email</string>
+    <string name="password_hint">Mật khẩu (ít nhất 6 ký tự)</string>
+    <string name="full_name_hint">Họ và Tên (để hiển thị)</string>
+    <string name="go_to_login">Đã có tài khoản? Đăng nhập</string>
+
+    <string name="login">Đăng Nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="go_to_register">Chưa có tài khoản? Đăng ký ngay</string>
+
+    <string name="email_required">Email là bắt buộc</string>
+    <string name="invalid_email">Vui lòng nhập email hợp lệ</string>
+    <string name="password_required">Mật khẩu là bắt buộc</string>
+    <string name="login_success">Đăng nhập thành công!</string>
+    <string name="login_failed">Đăng nhập thất bại: %s</string>
+
+    <string name="password_length_error">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="full_name_required">Họ tên là bắt buộc</string>
+    <string name="register_failed">Đăng ký thất bại: %s</string>
+    <string name="register_success">Đăng ký thành công!</string>
+    <string name="save_info_failed">Lỗi khi lưu thông tin.</string>
+
+    <string name="nav_home_title">Trang Chủ</string>
+    <string name="nav_vocabulary_title">Học Từ Vựng</string>
+    <string name="nav_grammar_title">Ngữ Pháp</string>
+    <string name="nav_dictionary_title">Tra cứu từ điển</string>
+    <string name="nav_settings_title">Cài Đặt</string>
+    <string name="nav_account_login_title">Tài khoản (Đăng nhập)</string>
+    <string name="nav_logout_title">Đăng xuất</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_category_account">Tài khoản</string>
+    <string name="settings_private_settings">Cài đặt riêng</string>
+    <string name="settings_profile">Hồ sơ</string>
+    <string name="settings_notifications">Thông báo</string>
+    <string name="settings_courses">Khóa học</string>
+    <string name="settings_social_accounts">Tài khoản mạng xã hội</string>
+    <string name="settings_privacy_settings">Cài đặt quyền riêng tư</string>
+
+    <string name="settings_category_subscription">Gói đăng ký</string>
+    <string name="settings_choose_plan">Chọn gói đăng ký</string>
+    <string name="settings_super_gift">Gợi ý quà Super</string>
+    <string name="settings_restore_subscription">Khôi phục đăng ký</string>
+
+    <string name="settings_category_support">Hỗ trợ</string>
+    <string name="settings_help_center">Trung tâm trợ giúp</string>
+    <string name="settings_feedback">Phản hồi</string>
+    <string name="settings_logout">Đăng xuất</string>
+
+    <!-- Private Settings Screen -->
+    <string name="private_settings_category_experience">Cài đặt trải nghiệm học</string>
+    <string name="private_settings_sound_effects">Hiệu ứng âm thanh</string>
+    <string name="private_settings_haptic_feedback">Cảm biến rung</string>
+    <string name="private_settings_motivational_messages">Thông báo khích lệ</string>
+    <string name="private_settings_listening_exercises">Bài tập nghe</string>
+    <string name="private_settings_friend_quests">Nhiệm vụ bạn bè</string>
+    <string name="private_settings_friend_streaks">Streak bạn bè</string>
+    <string name="private_settings_dark_mode">Chế độ tối</string>
+
+    <string name="private_settings_category_language">Tiếng Hoa</string>
+    <string name="private_settings_show_pinyin">Hiển thị phiên âm</string>
+    <string name="private_settings_pinyin_all">Tất cả</string>
+    <string name="private_settings_pinyin_new_only">Chỉ từ mới</string>
+    
+    <!-- Notifications Settings Screen -->
+    <string name="notifications_reminders">Nhắc nhở</string>
+    <string name="notifications_reminders_summary">Nhắc nhở luyện tập hàng ngày và giữ streak</string>
+    <string name="notifications_friends">Bạn bè</string>
+    <string name="notifications_friends_summary">Cập nhật khi có người theo dõi mới và bạn bè đạt thành tích mới</string>
+    <string name="notifications_leaderboard">Bảng xếp hạng</string>
+    <string name="notifications_leaderboard_summary">Cập nhật thông tin giải đấu</string>
+    <string name="notifications_announcements">Thông báo</string>
+    <string name="notifications_announcements_summary">Cập nhật về các tính năng mới, khuyến mãi và các sự kiện</string>
+    <string name="notifications_friend_reminders">Nhắc nhở từ bạn bè</string>
+    <string name="notifications_friend_reminders_summary">Nhắc nhở từ bạn bè</string>
+    <string name="notifications_status_off">Đã tắt %d thông báo</string>
+
 </resources>
